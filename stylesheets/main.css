@@ -1,1 +1,45 @@
-/* Your styles go here */
+header{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+main{
+    display: flex;
+
+    flex-direction: column;
+}
+aside{
+    width: 70%;
+    background-color: beige;
+}
+article{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+img{width: 20%;
+display: none;}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+@media (min-width: 900px){
+    aside{
+        width: 100%;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+    }
+    img{
+        display: block;
+    }
+}
